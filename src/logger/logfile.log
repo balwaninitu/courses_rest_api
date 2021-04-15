@@ -16,3 +16,59 @@ Error Logger:	2021/04/14 14:47:59 db_courses.go:36: error when trying to get cou
 Info Logger:	2021/04/14 14:48:23 controllers.go:101: courses details deleted from database
 Info Logger:	2021/04/14 14:48:52 controllers.go:101: courses details deleted from database
 Info Logger:	2021/04/14 14:49:11 controllers.go:101: courses details deleted from database
+Trace Logger:	2021/04/14 15:15:26 db.go:37: Connected to database
+Trace Logger:	2021/04/14 15:15:26 application.go:23: Connected to port 8081
+Error Logger:	2021/04/14 15:16:13 db_courses.go:36: error when trying to get course sql: no rows in result set
+Info Logger:	2021/04/14 15:16:13 controllers.go:47: courses details created from database
+Info Logger:	2021/04/14 15:16:13 controllers.go:47: courses details created from database
+Info Logger:	2021/04/14 15:16:13 controllers.go:101: courses details deleted from database
+Trace Logger:	2021/04/14 15:22:41 db.go:37: Connected to database
+Trace Logger:	2021/04/14 15:22:41 application.go:23: Connected to port 8081
+Error Logger:	2021/04/14 15:23:04 db_courses.go:36: error when trying to get course sql: no rows in result set
+Info Logger:	2021/04/14 15:23:04 controllers.go:47: courses details created from database
+Info Logger:	2021/04/14 15:23:04 controllers.go:47: courses details created from database
+Info Logger:	2021/04/14 15:23:04 controllers.go:101: courses details deleted from database
+Info Logger:	2021/04/14 15:24:37 controllers.go:47: courses details created from database
+Info Logger:	2021/04/14 15:24:37 controllers.go:47: courses details created from database
+Info Logger:	2021/04/14 15:24:37 controllers.go:101: courses details deleted from database
+Error Logger:	2021/04/14 15:26:05 db_courses.go:36: error when trying to get course sql: no rows in result set
+Info Logger:	2021/04/14 15:26:05 controllers.go:47: courses details created from database
+Info Logger:	2021/04/14 15:26:05 controllers.go:47: courses details created from database
+Info Logger:	2021/04/14 15:26:05 controllers.go:101: courses details deleted from database
+Info Logger:	2021/04/14 15:27:21 controllers.go:47: courses details created from database
+Info Logger:	2021/04/14 15:27:21 controllers.go:47: courses details created from database
+Info Logger:	2021/04/14 15:27:21 controllers.go:87: courses details updated from database
+Info Logger:	2021/04/14 15:27:21 controllers.go:101: courses details deleted from database
+Info Logger:	2021/04/14 15:28:47 controllers.go:47: courses details created from database
+Info Logger:	2021/04/14 15:28:47 controllers.go:47: courses details created from database
+Info Logger:	2021/04/14 15:28:47 controllers.go:87: courses details updated from database
+Info Logger:	2021/04/14 15:28:47 controllers.go:101: courses details deleted from database
+Info Logger:	2021/04/14 15:29:12 controllers.go:47: courses details created from database
+Info Logger:	2021/04/14 15:29:12 controllers.go:47: courses details created from database
+Info Logger:	2021/04/14 15:29:12 controllers.go:87: courses details updated from database
+Info Logger:	2021/04/14 15:29:12 controllers.go:101: courses details deleted from database
+Trace Logger:	2021/04/14 15:30:36 db.go:37: Connected to database
+Trace Logger:	2021/04/14 15:30:36 application.go:23: Connected to port 8081
+Error Logger:	2021/04/14 15:31:04 db_courses.go:36: error when trying to get course sql: no rows in result set
+Info Logger:	2021/04/14 15:31:23 controllers.go:87: courses details updated from database
+Trace Logger:	2021/04/15 13:03:02 db.go:37: Connected to database
+Trace Logger:	2021/04/15 13:03:02 application.go:23: Connected to port 8081
+Info Logger:	2021/04/15 13:03:31 controllers.go:47: courses details created from database
+Info Logger:	2021/04/15 13:03:31 controllers.go:47: courses details created from database
+Info Logger:	2021/04/15 13:03:31 controllers.go:87: courses details updated from database
+Info Logger:	2021/04/15 13:03:31 controllers.go:101: courses details deleted from database
+Info Logger:	2021/04/15 13:08:10 controllers.go:47: courses details created from database
+Info Logger:	2021/04/15 13:08:10 controllers.go:47: courses details created from database
+Info Logger:	2021/04/15 13:08:10 controllers.go:87: courses details updated from database
+Info Logger:	2021/04/15 13:08:10 controllers.go:101: courses details deleted from database
+Info Logger:	2021/04/15 13:09:24 controllers.go:47: courses details created from database
+Info Logger:	2021/04/15 13:09:24 controllers.go:87: courses details updated from database
+Info Logger:	2021/04/15 13:09:24 controllers.go:101: courses details deleted from database
+Trace Logger:	2021/04/15 14:24:28 db.go:37: Connected to database
+Trace Logger:	2021/04/15 14:24:28 application.go:23: Connected to port 8081
+Error Logger:	2021/04/15 14:24:51 db_courses.go:36: error when trying to get course sql: no rows in result set
+Info Logger:	2021/04/15 14:24:51 controllers.go:47: courses details created from database
+Error Logger:	2021/04/15 14:24:51 db_courses.go:36: error when trying to get course sql: no rows in result set
+Info Logger:	2021/04/15 14:24:51 controllers.go:101: courses details deleted from database
+Trace Logger:	2021/04/15 16:08:43 db.go:37: Connected to database
+Trace Logger:	2021/04/15 16:08:43 application.go:23: Connected to port 8081

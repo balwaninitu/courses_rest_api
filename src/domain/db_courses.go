@@ -23,7 +23,7 @@ type Courses struct {
 }
 
 func (course *Courses) Get() utils.ApiErr {
-	stmt, err := config.Client.Prepare(queryGetCourse)
+	stmt, err := config.DB.Prepare(queryGetCourse)
 	if err != nil {
 		logger.ErrorLog.Println("error when trying to prepare get course statement", err)
 		return utils.NewInternalServerError("database error", errors.New("database error"))
@@ -40,7 +40,7 @@ func (course *Courses) Get() utils.ApiErr {
 }
 
 func (course *Courses) Create() utils.ApiErr {
-	stmt, err := config.Client.Prepare(queryCreateCourse)
+	stmt, err := config.DB.Prepare(queryCreateCourse)
 	if err != nil {
 		logger.ErrorLog.Println("error when trying to create course", err)
 		return utils.NewInternalServerError("database error", errors.New("database error"))
@@ -63,7 +63,7 @@ func (course *Courses) Create() utils.ApiErr {
 }
 
 func (course *Courses) Update() utils.ApiErr {
-	stmt, err := config.Client.Prepare(queryUpdateCourse)
+	stmt, err := config.DB.Prepare(queryUpdateCourse)
 	if err != nil {
 		logger.ErrorLog.Println("error when trying to update course", err)
 		return utils.NewInternalServerError("database error", errors.New("database error"))
@@ -79,7 +79,7 @@ func (course *Courses) Update() utils.ApiErr {
 }
 
 func (course *Courses) Delete() utils.ApiErr {
-	stmt, err := config.Client.Prepare(queryDeleteCourse)
+	stmt, err := config.DB.Prepare(queryDeleteCourse)
 	if err != nil {
 		logger.ErrorLog.Println("error when trying to delete course", err)
 		return utils.NewInternalServerError("database error", errors.New("database error"))
