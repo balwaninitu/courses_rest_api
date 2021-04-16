@@ -17,14 +17,15 @@ var (
 /*init func will invoke before main func and will open databse to
 perform operation */
 func init() {
-	//to run application locally
-	//dataSourceName := fmt.Sprintf("%s:%s@tcp(%s)/%s",
-	//	"user", "password", "127.0.0.1:3306", "users_db")
-
-	//to run application on docker
+	//To run application locally
 	dataSourceName := fmt.Sprintf("%s:%s@tcp(%s)/%s",
-		"root", "password", "127.0.0.1:49263", "users_db")
+		"user", "password", "127.0.0.1:3306", "users_db")
 
+	//To run application on docker MySQL container
+
+	/*dataSourceName := fmt.Sprintf("%s:%s@tcp(%s)/%s",
+	"root", "password", "127.0.0.1:49263", "users_db")
+	*/
 	DB, err = sql.Open("mysql", dataSourceName)
 
 	if err != nil {

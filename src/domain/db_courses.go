@@ -26,6 +26,7 @@ func (course *Courses) Get() utils.ApiErr {
 	stmt, err := config.DB.Prepare(queryGetCourse)
 	if err != nil {
 		logger.ErrorLog.Println("error when trying to prepare get course statement", err)
+
 		return utils.NewInternalServerError("database error", errors.New("database error"))
 	}
 	defer stmt.Close()
@@ -34,7 +35,7 @@ func (course *Courses) Get() utils.ApiErr {
 
 	if getErr := result.Scan(&course.Id, &course.Title); getErr != nil {
 		logger.ErrorLog.Println("error when trying to get course", getErr)
-		return utils.NewInternalServerError("database error", errors.New("database error"))
+		return utils.NewNotFoundError("id not found")
 	}
 	return nil
 }
